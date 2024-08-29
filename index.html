@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./estilos/style.css">
+    <link rel="stylesheet" href="./estilos/tarjetasProductos.css">
     <title>Especias y condimentos | CASAROMA</title>
 </head>
 <body>
     <header class="contenedorMenuHorizontal">
+        <a href="#" class="quienesSomos">¿Quienes somos?</a>
         <img class="logo" src="./imagenes/logo.png" alt="logo casaroma">
         <ul class="menuHorizontal">
             <li>
@@ -21,6 +23,15 @@
                 </ul>
             </li>
             <li>
+                <a href="#">Recetas</a>
+            </li>
+            <li>
+                <a href="#">Novedades</a>
+            </li>
+            <li>
+                <a href="#">Contactenos</a>
+            </li>
+            <li>
                 <a href="">Carrito</a>
                 <ul class="menuVertical">
                 </ul>
@@ -28,16 +39,16 @@
         </ul>
     </header>
     <main>
-        <div class="contenedorProducto">
-            <img src="./imagenes/productos/oregano.jpg" alt="imagen oregano">
-            <h2>oregano</h2>
-        </div>
-        <div class="contenedorProducto">
-            <h2>tomillo</h2>
-        </div>
-        <div class="contenedorProducto">
-            <h2>albahaca</h2>
-        </div>
+        <section class="contenedorProductos">
+            <div class="producto">
+                <img src="./imagenes/productos/oregano.jpg" alt="imagen producto">
+                <h2 class="nombreProducto">Oregano</h2>
+                <h2 class="precioProducto">$18.000</h2>
+                <button>carrito</button>
+            </div>
+        </section>
+        
+
     </main>
     <footer>
         <a aria-label="Chat on WhatsApp" href="https://wa.me/573205254347?" target="_blank"><img alt="icono WhatsApp" src="./imagenes/Iconos/logo-wsp.png" class="btn-wsp" id="respuesta"/></a>
